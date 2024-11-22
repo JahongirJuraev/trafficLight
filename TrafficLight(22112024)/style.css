@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#btn{
+    margin-top: 40px;
+    padding: 10px 50px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 22px;
+    outline: none;
+}
+
+#btn:hover{
+    background: #00000017;
+}
+
+#btn:active{
+    background: #0000002a;
+}
+
+.container {
+    background-color: #b1ccd8;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trafficLightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00000057;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.trafficLight {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
